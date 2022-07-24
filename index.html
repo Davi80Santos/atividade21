@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Davi Silva dos Santos">
+    <title>Atividade 21 </title>
+    <link href="css/estilo.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+<body>
+    <header>
+            <div class="container">
+                <h1>Página de comentários</h1>
+            </div>
+         <hr/>
+    </header>
+        <main>
+            <div class="container">
+    <form onsubmit="return false">
+        <label>Nome:</label>
+            <input type="text" name="" id="nome" placeholder="Usuário"><br/><br/>
+        <label>Comentário</label>
+            <textarea id="comentario" placeholder="Digite o seu comentário" cols="250" rows="10"></textarea><br/>
+            <br/>
+        <label>Formatação</label><br/>
+        <p> Cor do Texto</p>
+            <input type="color" id="cor-texto" value="#00008B"/>
+        <p>Cor de Fundo</p>
+            <input type="color" id="cor-fundo" value="#ffffff"/> 
+        <br/><button onclick="dados();">Enviar</button>
+            <hr/>                             
+    </form>
+            </div>
+            <div class = "container" id="action" style="background-color: white;">
+            </div>    
+</main>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
